@@ -149,11 +149,18 @@ Por ser um site estático, qualquer hospedagem simples serve. As gratuitas mais
 fáceis são **Netlify** e **Cloudflare Pages**: basta arrastar a pasta inteira
 para a área de upload do painel.
 
-Antes de publicar:
+O site está publicado em **https://atelietilinda.github.io**, a partir do
+repositório `atelietilinda/atelietilinda.github.io` (branch `main`, pasta raiz).
 
-- Em `index.html`, a tag `og:image` usa um caminho relativo. Se quiser que a
-  prévia apareça corretamente ao compartilhar no WhatsApp, troque por
-  a URL completa (ex.: `https://seudominio.com.br/assets/img/og-image.png`).
+Para publicar uma alteração, salve os arquivos e rode, dentro da pasta do site:
+
+```bash
+git add -A && git commit -m "descreva a mudança" && git push
+```
+
+O GitHub leva um ou dois minutos para atualizar o site depois do envio.
+
+O `Tilinda.zip` fica de fora do repositório, pelo `.gitignore`.
 
 ## Dados usados no site
 
