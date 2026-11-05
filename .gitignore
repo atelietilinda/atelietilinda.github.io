@@ -1,0 +1,8 @@
+# pacote de backup, não vai para o site
+Tilinda.zip
+*.zip
+
+# lixo do sistema
+Thumbs.db
+desktop.ini
+.DS_Store
